@@ -17,7 +17,7 @@ metadata:
     app: kafka-broker
   name: kafka-broker
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: kafka-broker
